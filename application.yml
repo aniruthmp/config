@@ -50,7 +50,7 @@ eureka:
   instance:
     hostname: localhost
     nonSecurePort: 8080
-    prefer-ip-address: false
+    prefer-ip-address: true
     leaseRenewalIntervalInSeconds: 5
   client:
     region: default
