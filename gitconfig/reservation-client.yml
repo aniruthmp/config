@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:9999}
+
+eureka:
+  instance:
+    hostname: reservation-client
+
+#zuul:
+#  ignoredServices: '*'
+#  host:
+#    connect-timeout-millis: 20000
+#    socket-timeout-millis: 20000
+#
+#  routes:
+#    reservation-service:
+#        path: /reservations/**
+#        serviceId: reservation-service
+#        stripPrefix: false
+#        sensitiveHeaders:
