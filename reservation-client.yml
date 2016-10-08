@@ -5,6 +5,13 @@ ribbon:
   eureka:
     enabled: false
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+
 #zuul:
 #  routes:
 #    reservation-service:
