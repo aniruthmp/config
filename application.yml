@@ -31,8 +31,8 @@ logging:
   level:
     org:
       springframework:
-        security: INFO
-        web: INFO
+        security: DEBUG
+        web: DEBUG
     com:
       netflix:
         eureka: 'OFF'
