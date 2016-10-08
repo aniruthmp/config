@@ -10,10 +10,6 @@ endpoints:
     sensitive: false
 
 spring:
-  cloud:
-    config:
-      discovery:
-        enabled: true
   jpa:
     generate-ddl: true
   sleuth:
