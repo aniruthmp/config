@@ -3,7 +3,3 @@ server:
 
 info:
   component: Hystrix Dashboard
-
-#eureka:
-#  instance:
-#    hostname: hystrix-dashboard
