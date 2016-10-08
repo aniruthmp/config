@@ -9,6 +9,8 @@ zuul:
   routes:
     reservation-service:
       url: http://localhost:8000
+      serviceId: reservation-service
+      path: /reservations/**
 
 #zuul:
 #  ignoredServices: '*'
