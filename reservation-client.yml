@@ -1,9 +1,14 @@
 server:
   port: ${PORT:9999}
 
-#eureka:
-#  instance:
-#    hostname: reservation-client
+ribbon:
+  eureka:
+    enabled: false
+
+zuul:
+  routes:
+    reservation-service:
+      url: http://localhost:8000
 
 #zuul:
 #  ignoredServices: '*'
