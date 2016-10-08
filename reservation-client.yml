@@ -1,9 +1,9 @@
 server:
   port: ${PORT:9999}
 
-ribbon:
-  eureka:
-    enabled: false
+#ribbon:
+#  eureka:
+#    enabled: false
 
 eureka:
   client:

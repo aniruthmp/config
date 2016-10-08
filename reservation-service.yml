@@ -10,6 +10,6 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
 
-ribbon:
-  eureka:
-    enabled: true
+#ribbon:
+#  eureka:
+#    enabled: true
