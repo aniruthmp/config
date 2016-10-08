@@ -16,4 +16,4 @@ zuul:
         path: /reservations/**
         serviceId: reservation-service
         stripPrefix: false
-        sensitiveHeaders:
+        sensitiveHeaders: Cookie,Set-Cookie,Authorization
