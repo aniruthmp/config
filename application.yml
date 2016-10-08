@@ -21,3 +21,13 @@ spring:
   zipkin:
     host: localhost
     base-url: http://localhost:9411
+
+### Docker Properties Start ###
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+  instance:
+    virtual-host-name: ${spring.application.name}
+    leaseRenewalIntervalInSeconds: 10
+### Docker Properties End ###
