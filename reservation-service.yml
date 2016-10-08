@@ -1,12 +1,12 @@
 server:
-  port: 8000
+  port: ${PORT:8000}
 
 message: Hello Ani!
 
-eureka:
-  instance:
-    hostname: reservation-service
-
-ribbon:
-  eureka:
-    enabled: true
+#eureka:
+#  instance:
+#    hostname: reservation-service
+#
+#ribbon:
+#  eureka:
+#    enabled: true

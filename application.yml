@@ -38,22 +38,22 @@ logging:
         eureka: 'OFF'
         discovery: 'OFF'
 
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 10000
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 10000
 
-eureka:
-  instance:
-    hostname: localhost
-    nonSecurePort: 8080
-    prefer-ip-address: true
-    leaseRenewalIntervalInSeconds: 5
-  client:
-    region: default
-    registryFetchIntervalSeconds: 5
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+#eureka:
+#  instance:
+#    hostname: localhost
+#    nonSecurePort: 8080
+#    prefer-ip-address: true
+#    leaseRenewalIntervalInSeconds: 5
+#  client:
+#    region: default
+#    registryFetchIntervalSeconds: 5
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/

@@ -1,9 +1,9 @@
 server:
-  port: 8010
+  port: ${PORT:8010}
 
 info:
   component: Hystrix Dashboard
 
-eureka:
-  instance:
-    hostname: hystrix-dashboard
+#eureka:
+#  instance:
+#    hostname: hystrix-dashboard
